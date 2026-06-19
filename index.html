@@ -259,18 +259,20 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-seri
 ══════════════════════════ */
 @media print {
   * { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
-  body { background: #fff !important; color: #000 !important; font-family: 'Courier New', monospace; font-size: 12px; }
+  body { background: #fff !important; color: #000 !important; font-family: 'Courier New', monospace; font-size: 15px; }
   #topbar, #bottomnav, .caution-stripe, .sell-row, .cat-pills, .search-wrap, .store-hero,
   .ftabs, .shdr .btn, .apc-actions, #toast, .overlay, .icon-btn,
   .nav-item, #sec-dash, #sec-products, #sec-sales, #sec-alerts, #sec-settings { display: none !important; }
   #main { padding: 0 !important; max-width: 100% !important; }
   #sec-store { display: block !important; }
   .receipt-header { display: block !important; }
-  .pc { box-shadow: none !important; border: 1px solid #ccc !important; border-radius: 0 !important; margin-bottom: 4px !important; break-inside: avoid; }
+  .pc { box-shadow: none !important; border: 1px solid #ccc !important; border-radius: 0 !important; margin-bottom: 6px !important; padding: 10px !important; break-inside: avoid; }
+  .pc-name { font-size: 16px !important; }
+  .pc-cat, .pc-unit, .pc-stock { font-size: 13px !important; }
   .pc.out-of-stock, .pc.low-stock { border-left: 2px solid #666 !important; }
-  .pc-price { color: #000 !important; font-size: 14px !important; }
-  .badge { border: 1px solid #ccc !important; background: #fff !important; color: #000 !important; }
-  .prod-grid { gap: 4px !important; }
+  .pc-price { color: #000 !important; font-size: 18px !important; }
+  .badge { border: 1px solid #ccc !important; background: #fff !important; color: #000 !important; font-size: 12px !important; }
+  .prod-grid { gap: 6px !important; }
 }
 
 /* RECEIPT HEADER (print only) */
